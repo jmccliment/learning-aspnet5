@@ -30,5 +30,15 @@ namespace WebApplication1.Controllers
         {
             return View("~/Views/Shared/Error.cshtml");
         }
+
+        public IActionResult Bar()
+        {
+            return View();
+        }
+
+        public IActionResult Foo()
+        {
+            return View();
+        }
     }
 }
